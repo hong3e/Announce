@@ -1,0 +1,39 @@
+<?php
+
+# Copyright (c) 2010 John Reese
+# Copyright (c) 2017 Damien Regad
+# Licensed under the MIT license
+
+$s_plugin_Announce_ = '';
+$s_plugin_Announce_plugin_title = '알림';
+$s_plugin_Announce_plugin_description = 'Allows administrators to create announcements to users in various locations.';
+
+$s_plugin_Announce_title = '제목';
+$s_plugin_Announce_message = '알림 내용';
+$s_plugin_Announce_ttl = '노출 기간';
+$s_plugin_Announce_ttl_help = '초 기준; 0 입력시 항상 노출됩니다';
+$s_plugin_Announce_location = '노출 위치';
+$s_plugin_Announce_access = '적용 대상';
+$s_plugin_Announce_access_help = '해당 레벨 이상의 사용자에게만 노출됩니다';
+$s_plugin_Announce_project = '적용할 프로젝트';
+$s_plugin_Announce_dismissable = 'X 버튼 노출여부 (X 선택시 알림 사라짐)';
+$s_plugin_Announce_select_one = '(select one)';
+
+$s_plugin_Announce_list_title = '알림';
+$s_plugin_Announce_create_title = '새 알림';
+$s_plugin_Announce_edit_title = '알림 편집';
+
+$s_plugin_Announce_config = 'Configuration';
+$s_plugin_Announce_config_title = 'Announcement Configuration';
+$s_plugin_Announce_config_manage_threshold = 'Manage Announcements';
+$s_plugin_Announce_threshold_warning = 'WARNING: access level is lower than <em>$g_manage_site_threshold</em> ; users may not be able to access the management pages.';
+
+$s_plugin_Announce_action_go = '선택';
+$s_plugin_Announce_action_create = '생성하기';
+$s_plugin_Announce_action_edit = '편집하기';
+$s_plugin_Announce_action_delete = '삭제하기';
+$s_plugin_Announce_action_delete_confirm = 'Do you really want to delete the following announcements?';
+$s_plugin_Announce_action_update = '수정하기';
+
+$s_plugin_Announce_location_header = 'Page Header';
+
